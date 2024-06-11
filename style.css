@@ -2,6 +2,7 @@
 	padding: 0px;
 	margin: 0;
 }
+
 .cc {
 	background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(244,240,240,1) 47%, rgba(198,198,198,1) 51%, rgba(150,150,150,1) 51%, rgba(199,199,199,1) 52%, rgba(241,241,241,1) 55%, rgba(255,255,255,1) 100%);
 }
@@ -15,8 +16,61 @@ a:link {
 }
 
 a:hover {
-	color: lightgray;
+	color: white;
 }
+
+.red {
+	display: flex;
+	float: left;
+	align-items: center;
+	justify-content: center;
+	width: 33vw;
+	height:50vh;
+	background-color: indianred;
+	text-align: center;
+	font-size: 30px;
+	font-family: "나눔고딕", "regular";
+}
+
+.nn {
+	display: flex;
+	float: left;
+	align-items: center;
+	justify-content: center;
+	width: 33vw;
+	height:50vh;
+
+}
+
+.girlboy {
+	display: flex;
+	float: left;
+	align-items: center;
+	justify-content: center;
+	width: 33vw;
+	height: 50vh;
+	background: linear-gradient(90deg, lightpink, lightblue);
+	text-align: center;
+	font-size: 30px;
+	font-family: "나눔고딕", "regular";
+
+}
+
+.country {
+	display: flex;
+	float: left;
+	align-items: center;
+	justify-content: center;
+	width: 33vw;
+	height: 50vh;
+	background-color: lightgray;
+	text-align: center;
+	font-size: 30px;
+	font-family: "나눔고딕", "regular";
+
+
+}
+
 
 .w1,
 .w2,
@@ -82,6 +136,88 @@ a:hover {
 	padding: 0;
 }
 
+.eee {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	font-size: 65px;
+	height: 120px;
+	justify-content: left;
+	padding:35px;
+
+}
+
+.red1 {
+	font-size: 5vw;
+	font-family: "맑은고딕", "regular";
+	background-color: indianred;
+	border-radius: 100px;
+
+}
+
+.red2 {
+	padding: 20px;
+	text-decoration-line: underline;
+	text-decoration-color: indianred;
+	text-decoration-thickness: 0.08cm;
+	text-underline-offset: 0.09cm;
+	text-decoration-style: way;
+	font-family: "맑은고딕", "regular";
+}
+
+.pb1 {
+	font-size: 5vw;
+	font-family: "맑은고딕", "regular";
+	background-color: lightblue;
+	border-radius: 100px;
+
+}
+
+.pb2 {
+	padding: 20px;
+	text-decoration-line: underline;
+	text-decoration-color: lightpink;
+	text-decoration-thickness: 0.08cm;
+	text-underline-offset: 0.09cm;
+	text-decoration-style: way;
+	font-family: "맑은고딕", "regular";
+}
+
+.ct1 {
+	font-size: 5vw;
+	font-family: "맑은고딕", "regular";
+	background-color: lightgray;
+	border-radius: 100px;
+}
+
+.ct2 {
+	padding: 20px;
+	text-decoration-line: underline;
+	text-decoration-color: lightgray;
+	text-decoration-thickness: 0.08cm;
+	text-underline-offset: 0.09cm;
+	text-decoration-style: way;
+	font-family: "맑은고딕", "regular";
+}
+.reddd {
+	margin: auto;
+	padding: 50px;
+
+
+}
+
+.redred {
+	margin: auto;
+	width: 900px;
+	height: auto;
+
+}
+
+.redredd {
+	margin: auto;
+	width: 900px;
+	height: auto;
+}
 
 
 p {
@@ -136,6 +272,37 @@ a {
 	list-style: none;
 	padding: 10px;
 }
+
+.a3 {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	top: 185px;
+	left: 900px;
+	box-shadow: 4px 4px 10px 3px lightgray;
+	width: 60px;
+	height: 20px;
+	border-radius: 50px;
+	list-style: none;
+	padding: 10px;
+}
+
+.a4 {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	top: 230px;
+	left: 100px;
+	box-shadow: 4px 4px 10px 3px lightgray;
+	width: 40px;
+	height: 20px;
+	border-radius: 50px;
+	list-style: none;
+	padding: 10px;
+
+}
+
+
 
 .qq {
 	display: flex;
@@ -209,6 +376,21 @@ a {
 		left: 180px;
 	}
 
+	.eee { 
+	position: absolute;
+	font-size: 50px;
+	top: 100px;
+	left: 90px;
+
+
+	 }
+
+	 .v {
+	 	text-align: left;
+	 	position: absolute;
+	 	top: 850px;
+	 }
+
 	h1 {
 		font-size: 1.3vw;
 		height: 6vh;
@@ -252,14 +434,28 @@ a {
 
 }
 
+.a3 {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	top: 120px;
+	left: 300px;
+	box-shadow: 4px 4px 10px 3px white;
+	width: 60px;
+	height: 30px;
+	border-radius: 50px;
+	list-style: none;
+	padding: 10px;
+}
+
 .b {
 	display: flex;
 	align-items: center;
 	position: absolute;
-	top: 1900px;
+	top: 1600px;
 	left: 70px;
 	box-shadow: 4px 4px 10px 3px lightgray;
-	width: 60px;
+	width: 30px;
 	height: 30px;
 	border-radius: 50px;
 	list-style: none;
@@ -271,10 +467,10 @@ a {
 	display: flex;
 	align-items: center;
 	position: absolute;
-	top: 1900px;
+	top: 1600px;
 	left: 400px;
 	box-shadow: 4px 4px 10px 3px lightgray;
-	width: 60px;
+	width: 30px;
 	height: 30px;
 	border-radius: 50px;
 	list-style: none;
