@@ -19,6 +19,69 @@ a:hover {
 	color: white;
 }
 
+::-webkit-scrollbar {
+  width: 2.5px; /* 스크롤 막대의 너비 */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: lightblue; /* 스크롤 막대 색상 */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: cadetblue; /* 스크롤 막대 호버 시 색상 */
+}
+
+.danwoo {
+	font-family: "맑은고딕", "regular";
+	font-size: 3vh;
+}
+
+.holeee {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	width: 30vw;
+	height: auto;
+	margin: 0;
+	padding: 30px;
+
+}
+
+.holeee2 {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	width: 30vw;
+	height: auto;
+	margin: 0;
+	padding: 30px;
+
+}
+.dv1 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	width: 100vw; 
+	height: 50vh;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	align-items: center;
+
+}
+
+
+
+.dv2 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	width: 100vw;
+	height: 50vh;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	align-items: center;
+}
+
 .red {
 	display: flex;
 	float: left;
@@ -302,6 +365,20 @@ a {
 
 }
 
+.a5 {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	top: 185px;
+	left: 1300px;
+	box-shadow: 4px 4px 10px 3px lightgray;
+	width: 60px;
+	height: 20px;
+	border-radius: 50px;
+	list-style: none;
+	padding: 10px;
+}
+
 
 
 .qq {
@@ -440,6 +517,20 @@ a {
 	position: absolute;
 	top: 120px;
 	left: 300px;
+	box-shadow: 4px 4px 10px 3px white;
+	width: 60px;
+	height: 30px;
+	border-radius: 50px;
+	list-style: none;
+	padding: 10px;
+}
+
+.a5 {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	top: 120px;
+	left: 400px;
 	box-shadow: 4px 4px 10px 3px white;
 	width: 60px;
 	height: 30px;
